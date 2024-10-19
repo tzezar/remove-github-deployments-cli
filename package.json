@@ -1,0 +1,19 @@
+{
+  "name": "remove-github-deployments-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to remove GitHub deployments",
+  "main": "index.js",
+  "bin": {
+    "delete-deployments": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "@octokit/rest": "^21.0.2",
+    "yargs": "^17.6.0",
+    "prompts": "^2.4.2",
+    "tsx": "^3.12.7"
+  },
+  "devDependencies": {
+  },
+  "type": "module"
+}

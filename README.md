@@ -13,17 +13,13 @@ A command-line interface (CLI) tool to remove deployments from your GitHub repos
 You can run it directly using `npx`:
 
 ```
-
 npx remove-github-deployments-cli@latest init
-
 ```
 
 Alternatively, you can install this CLI globally using npm:
 
 ```
-
 npm install -g remove-github-deployments-cli
-
 ```
 
 
@@ -33,9 +29,7 @@ npm install -g remove-github-deployments-cli
 To remove deployments, run the following command:
 
 ```
-
 remove-github-deployments-cli init
-
 ```
 
 ### Interactive Prompts
@@ -48,9 +42,7 @@ remove-github-deployments-cli init
 ### Example
 
 ```
-
 npx remove-github-deployments-cli@latest init
-
 ```
 
 ## Requirements
